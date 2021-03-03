@@ -1,0 +1,18 @@
+{
+  "CN": "dns.example.com",
+  "key": {
+    "algo": "ecdsa",
+    "size": 256
+  },
+  "names": [
+  {
+    "C":  "LI",
+    "L":  "Vaduz",
+    "O":  "Internet Widgets, Inc.",
+    "OU": "WWW"
+  }
+ ],
+ "hosts": [
+  "dns.example.com"
+  ]
+}
