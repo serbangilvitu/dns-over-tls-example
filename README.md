@@ -9,7 +9,7 @@ docker build . -t dot-example
 # Start a container
 Run a container
 ```
-docker run -it --rm dot-example
+docker run -it --rm -v $(pwd)/cfssl:/cfssl dot-example
 ```
 From here, run the following commands inside the container.
 Alternatively, install kdig and cfssl locally.
